@@ -6,7 +6,7 @@ import App from './components/App';
 import Root from './Root';
 
 import './index.scss';
-
+// tesena
 ReactDOM.render(
   <Root>
     <App />
