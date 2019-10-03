@@ -10,9 +10,14 @@ pipeline {
       }
 		 }
 		 stage('Run Build') {
-		 steps {
+		  steps {
 		    bat 'npm run build'
 		    }
+		 }
+		 stage('Run tests') {
+		  steps {
+		    bat 'npm run test'
+		  }
 		 }
 	}
 }
